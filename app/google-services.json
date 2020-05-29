@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "276892690257",
+    "firebase_url": "https://project-3c4df.firebaseio.com",
+    "project_id": "project-3c4df",
+    "storage_bucket": "project-3c4df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276892690257:android:9e2516e51c444a90d65570",
+        "android_client_info": {
+          "package_name": "com.example.guesstheword"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "276892690257-tdrn53kqgkkl180bsiufsuacf58ecced.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJHOekEDSKSPX7bibgrN3thOUHgo58ldg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "276892690257-tdrn53kqgkkl180bsiufsuacf58ecced.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
