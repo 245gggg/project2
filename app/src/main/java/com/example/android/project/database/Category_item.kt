@@ -17,5 +17,9 @@ data class Category_item(
         @ColumnInfo(name = "title")
         var title:String = "",
         @ColumnInfo(name = "favourite")
-        var favourite:Boolean = false
+        var favourite:Boolean = false,
+        @ColumnInfo(name = "duration")
+        var duration:Int = 0,
+        @ColumnInfo(name = "price")
+        var price:String=""
 )

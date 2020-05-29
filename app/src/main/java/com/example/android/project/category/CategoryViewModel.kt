@@ -35,7 +35,7 @@ class CategoryViewModel(
                "After 2 minutes add the tomato pieces, salt pepper and your other spices.",
                "The sauce will be done once the spaghetti are.",
                "Feel free to add some cheese on top of the finished dish.").joinToString(),
-           title="Spagetti with Tomato sauce"),
+           title="Spagetti with Tomato sauce",duration = 20,price ="Affordable" ),
 
        Category_item(category_ids = 2,
            preparation_details = listOf(
@@ -53,7 +53,7 @@ class CategoryViewModel(
                "After 2 minutes, add the tomato pieces and salt and pepper and your other spices.",
                "The sauce will be done once the spaghetti are.",
                "Feel free to add some cheese on top of the finished dish.").joinToString(),
-           title="Spagetti with Tomato sauce"),
+           title="Spagetti with Tomato sauce",duration = 20,price = "Affordable"),
 
        Category_item(category_ids = 2,preparation_details = listOf(
            "1 Slice White Bread",
@@ -65,7 +65,7 @@ class CategoryViewModel(
                "Butter one side of the white bread",
                "Layer ham, the pineapple and cheese on the white bread",
                "Bake the toast for round about 10 minutes in the oven at 200°C").joinToString(),
-           title="Toast Hawaii"),
+           title="Toast Hawaii",duration = 10,price = "Affordable"),
        Category_item(category_ids = 2,preparation_details = listOf(
            "300g Cattle Hack",
            "1 Tomato",
@@ -79,7 +79,7 @@ class CategoryViewModel(
                "Quickly fry the buns for c. 1 minute on each side",
                "Bruch buns with ketchup",
                "Serve burger with tomato and cucumber and onion").joinToString(),
-           title="Classic Hamburger"),
+           title="Classic Hamburger",duration = 45,price = "Pricey"),
        Category_item(category_ids = 2,preparation_details = listOf(
            "White and Green Asparagus",
            "30g Pine Nuts",
@@ -97,7 +97,7 @@ class CategoryViewModel(
            "Serve with Baguette"
 
        ).joinToString(),
-           title="Asparagus Salad with Cherry Tomatoes"),
+           title="Asparagus Salad with Cherry Tomatoes",duration =30 ,price = "Expensive"),
 
        Category_item(category_ids = 3,preparation_details = listOf(
            "300g Cattle Hack",
@@ -112,7 +112,7 @@ class CategoryViewModel(
                "Quickly fry the buns for c. 1 minute on each side",
                "Bruch buns with ketchup",
                "Serve burger with tomato, cucumber and onion").joinToString(),
-           title="Classic Hamburger"),
+           title="Classic Hamburger",duration =45 ,price = "Pricey"),
 
        Category_item(category_ids = 4,preparation_details = listOf(
            "8 Veal Cutlets",
@@ -134,7 +134,7 @@ class CategoryViewModel(
            "Place the schnitzels on awarmed plate and serve garnishedwith parsley and slices of lemon."
 
        ).joinToString(),
-           title="Wiener Schnitzel"),
+           title="Wiener Schnitzel",duration =60 ,price ="Expensive" ),
 
        Category_item(category_ids = 5,preparation_details = listOf(
            "White and Green Asparagus",
@@ -153,7 +153,7 @@ class CategoryViewModel(
            "Serve with Baguette"
 
        ).joinToString(),
-           title="Asparagus Salad with Cherry Tomatoes"),
+           title="Asparagus Salad with Cherry Tomatoes",duration =30 ,price ="Expensive" ),
 
        Category_item(category_ids = 6,preparation_details = listOf(
            "4 Sheets of Gelatine",
@@ -176,7 +176,7 @@ class CategoryViewModel(
            "Serve with orange peel"
 
            ).joinToString(),
-           title="Delicious Orange Mousse"),
+           title="Delicious Orange Mousse",duration =240 ,price ="Affordable" ),
 
        Category_item(category_ids = 7,preparation_details = listOf(
            "1 1/2 Cups all-purpose Flour",
@@ -194,7 +194,7 @@ class CategoryViewModel(
            "Pour or scoop the batter onto the griddle  using approximately 1/4 cup for each pancake. Brown on both sides and serve hot."
 
        ).joinToString(),
-           title="Pancakes"),
+           title="Pancakes",duration =20 ,price ="Affordable"  ),
 
        Category_item(category_ids = 8,preparation_details = listOf(
            "4 Chicken Breasts",
@@ -214,7 +214,7 @@ class CategoryViewModel(
            "Serve with rice"
 
        ).joinToString(),
-           title="Creamy Indian Chicken Curry"),
+           title="Creamy Indian Chicken Curry",duration = 35,price ="Pricey"),
 
        Category_item(category_ids = 9,preparation_details = listOf(
            "1 Teaspoon melted Butter",
@@ -251,7 +251,7 @@ class CategoryViewModel(
                "Bake in preheated oven until scuffles are puffed and have risen above the top of the rims  12 to 15 minutes."
 
            ).joinToString(),
-           title="Chocolate Souffle"),
+           title="Chocolate Souffle",duration =45,price ="Affordable" ),
 
        Category_item(category_ids = 10,preparation_details = listOf(
            "Arugula",
@@ -272,7 +272,7 @@ class CategoryViewModel(
            "Add salmon cubes and dressing"
 
        ).joinToString(),
-           title="Salad with Smoked Salman"),
+           title="Salad with Smoked Salman",duration = 15,price = "Expensive" ),
 
        Category_item(category_ids = 10,preparation_details = listOf(
            "4 Sheets of Gelatine",
@@ -295,7 +295,7 @@ class CategoryViewModel(
            "Serve with orange peel"
 
        ).joinToString(),
-           title="Delicious Orange Mousse"),
+           title="Delicious Orange Mousse",duration =240 ,price ="Affordable"),
        Category_item(category_ids = 10,preparation_details = listOf(
            "White and Green Asparagus",
            "30g Pine Nuts",
@@ -313,7 +313,7 @@ class CategoryViewModel(
            "Serve with Baguette"
 
        ).joinToString(),
-           title="Asparagus Salad with Cherry Tomatoes")
+           title="Asparagus Salad with Cherry Tomatoes",duration =30 ,price ="Expensive" )
    )
 
     private val _navigateToCategory = MutableLiveData<Int>()

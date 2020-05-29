@@ -9,6 +9,20 @@ import com.example.android.project.R
 import com.example.android.project.database.Category_item
 
 
+@BindingAdapter("categoryDuration")
+fun TextView.setCategoryDurationFormatted(item: Category_item?) {
+    item?.let {
+        text = item.duration.toString()
+    }
+}
+
+@BindingAdapter("categoryPrice")
+fun TextView.setCategoryPriceFormatted(item: Category_item?) {
+    item?.let {
+        text = item.price.toString()
+    }
+}
+
 @BindingAdapter("categoryTitle")
 fun TextView.setSleepDurationFormatted(item: Category_item?) {
     item?.let {
